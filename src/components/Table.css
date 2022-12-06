@@ -1,0 +1,23 @@
+/*
+* Style is taken from w3schools<https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro>
+*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.odd-row {
+  background-color: #dddddd;
+}
+
+tr {
+    transition: all 100ms linear;
+}
